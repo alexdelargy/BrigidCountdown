@@ -1,0 +1,8 @@
+# .streamlit/config.toml
+[theme]
+base = "dark"                 # <‑‑ this flips the whole app to dark mode
+primaryColor = "#ff8c00"      # optional tweaks…
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+font = "sans serif"
