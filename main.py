@@ -74,7 +74,7 @@ st.markdown(
 def next_april_11_noon_eastern() -> datetime:
     eastern = ZoneInfo("America/New_York")
     now = datetime.now(eastern)
-    target = datetime(now.year, 4, 11, 12, 0, 0, tzinfo=eastern)
+    target = datetime(now.year, 4, 11, 10, 30, 0, tzinfo=eastern)
     if now >= target:  # if we’ve passed it this year, jump to next year
         target = target.replace(year=now.year + 1)
     return target
